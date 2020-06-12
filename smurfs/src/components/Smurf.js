@@ -19,7 +19,10 @@ const Smurf = ({ item }) => {
   console.log("SMURFLIST", item);
   return (
     <>
-      <h2>{item.name}</h2>
+      <h2>
+        Smurf {item.name} is {item.age} years old & is only {item.height}cm
+        tall.
+      </h2>
       {/* ADD BUTTON HERE WITH ONCLICK TO REMOVE SMURF WITH ITEM ID */}
       <button onClick={() => removeSmurf(item.id)}>Remove Smurf</button>
     </>
