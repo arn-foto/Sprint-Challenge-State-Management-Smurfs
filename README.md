@@ -1,3 +1,5 @@
+testing testing 1 2 3
+
 # Sprint Challenge: State Management - Smurfs
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored the context API, the reducer pattern, and Redux. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web.
@@ -64,8 +66,8 @@ Follow these steps to set up your project:
     name: "Brainey",
     age: 200,
     height: "5cm",
-    id: 0
-  }
+    id: 0,
+  },
 ];
 ```
 
@@ -97,14 +99,14 @@ Example of object created in Smurf DB:
     name: "Brainey",
     age: 200,
     height: "5cm",
-    id: 0
+    id: 0,
   },
   {
     name: "Sleepy",
     age: 200,
     height: "5cm",
-    id: 1
-  }
+    id: 1,
+  },
 ];
 ```
 
@@ -157,7 +159,7 @@ output: [
     name: "Sleepy",
     age: 200,
     height: "5cm",
-    id: 1
-  }
+    id: 1,
+  },
 ];
 ```
